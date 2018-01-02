@@ -1,0 +1,48 @@
+Name: Sravani Chatrathi		
+
+Course: CpSc 4160/6160: Data-Driven 2D Video Game Development
+
+Clemson Email Address: schatra@g.clemson.edu
+
+Project no:6
+
+Project due date:12/13/2017
+
+Project description: A playable game with conclusion
+
+The easiest part of this project: Player Restart and Sound
+
+Problems that I had in completing this project: I had few problems while implementing the painters algorithm
+
+Citiation:
+Background Image: Source : https://opengameart.org/content/3-parallax-backgrounds
+		  Author: Mobile Game Graphics
+
+Phoenix_left,Phoenix_right[Two Way Sprite] Source : http://untamed.wild-refuge.net/images/rpgxp/ff/phoenix.png
+			    
+
+Fire[Multisprite]:  Source:https://opengameart.org/content/animated-sprites-and-textures
+	Author:Spiney
+
+Bird[smart sprite]: 
+
+Source : " http://studio.wikitude.com/web/forum/developer/knowledge-base?p_p_id=3_WAR_knowledgebaseportlet_INSTANCE_0000&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_3_WAR_knowledgebaseportlet_INSTANCE_0000_mvcPath=%2Farticle%2Fview_article.jsp&_3_WAR_knowledgebaseportlet_INSTANCE_0000_resourcePrimKey=35544&_3_WAR_knowledgebaseportlet_INSTANCE_0000_returnToFullPageURL=%2Fweb%2Fforum%2Fdeveloper%2Fknowledge-base%3Fp_p_id%3D3_WAR_knowledgebaseportlet_INSTANCE_0000%26p_p_lifecycle%3D0%26p_p_state%3Dmaximized%26p_p_mode%3Dview%26_3_WAR_knowledgebaseportlet_INSTANCE_0000_mvcPath%3D%252Farticle%252Fview_article.jsp%26_3_WAR_knowledgebaseportlet_INSTANCE_0000_resourcePrimKey%3D35904%26_3_WAR_knowledgebaseportlet_INSTANCE_0000_returnToFullPageURL%3D%252Fweb%252Fforum%252Fdeveloper%252Fknowledge-base%253Fp_p_id%253D3_WAR_knowledgebaseportlet_INSTANCE_0000%2526p_p_lifecycle%253D0%2526p_p_state%253Dmaximized%2526p_p_mode%253Dview%2526_3_WAR_knowledgebaseportlet_INSTANCE_0000_mvcPath%253D%25252Farticle%25252Fview_article.jsp%2526_3_WAR_knowledgebaseportlet_INSTANCE_0000_resourcePrimKey%253D35472%2526p_p_auth%253DFz1oZEBV%26p_p_auth%3DcMbu6DiU&p_p_auth=oMUIuYk3 "
+
+Snow flake : Painter's algorithm
+Author : mkwong98
+source: https://opengameart.org/content/snow-flake
+
+Sounds: 
+Background music:http://soundimage.org/dark-ominous/
+
+Other sounds : http://freesound.org/people/timgormly/sounds
+
+Project Description: My game is Phoenix run. Use ASDW to move the phoenix. The Phoenix is the protector of forest. Enemy (blue) birds have come and occupied the forest. The Phoenix have to save the forest by killing them.If all the enemy birds are dead the forest is freed and phoenix wins. Score is kept based on the death of enemy sprites. Extra score if sparkling fire is take by phoenix. The phoenix has 3 lives. The health is shown through the health bar. The painters algorithm is implemented by snow flakes in the game. Sound and music has been added. 
+
+Important Note:
+I made a video of 20 seconds but it is not having sound. I am unable to record my video with sound. 
+I intially made a video in the lab machine ,it has sound, but later I made changes to my project after coming home, so when i did the recording again in my personal computer i coudln't have the video with sound.
+so i will upload both the videos. Please consider. 
+The video without sound is schatra.mp3
+and the video with sound is schatraWithSound.mp3
+

@@ -1,0 +1,320 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation. 
+     So make sure to include your name as part of the screenTitle -->
+<title>Phoenix Run --Kill the Enemies to save the Forest</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+
+<maxFrames>700</maxFrames>
+<username>schatra</username>
+<window>
+  <width>800</width>
+  <height>450</height>
+</window>
+<view>
+  <width>800</width>
+  <height>430</height>
+</view>
+<world>
+  <width>5000</width>
+  <height>430</height>
+</world>
+
+<hud>
+<width>250</width>
+<height>290</height>
+<start x="30" y="80"/>
+<seconds>3</seconds>
+</hud>
+
+<poolhud>
+<width>150</width>
+<height>100</height>
+<start x="670" y="20"/>
+</poolhud>
+
+<numberOfStars>10</numberOfStars>
+
+
+<Grass>
+  <file>assets/Grass.png</file>
+  <factor>1</factor>
+  <transparency>true</transparency>
+</Grass>
+<Land>
+  <file>assets/Land.png</file>
+  <factor>2</factor>
+  <transparency>true</transparency>
+</Land>
+<Building>
+  <file>assets/Building.png</file>
+  <factor>3</factor>
+  <transparency>true</transparency>
+</Building>
+
+<Tree>
+  <file>assets/tree.png</file>
+  <factor>4</factor>
+  <transparency>true</transparency>
+</Tree>
+<Ftree>
+  <file>assets/fartrees.png</file>
+  <factor>5</factor>
+  <transparency>true</transparency>
+</Ftree>
+<star>
+  <file>assets/star.png</file>
+  <factor>6</factor>
+  <transparency>true</transparency>
+</star>
+<moon>
+  <file>assets/moon.png</file>
+  <factor>7</factor>
+  <transparency>true</transparency>
+</moon>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>0</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+<Birdleft>
+  <file>assets/birdleft.png</file>
+  <startLoc x="4500" y="140"/>
+  <frames>4</frames>
+<imageWidth>64</imageWidth>
+  <imageHeight>64</imageHeight>
+  <speedX>199</speedX>
+  <speedY>199</speedY>
+  <frameInterval>50</frameInterval>
+  <safeDistance>70</safeDistance>
+  <transparency>false</transparency>
+ <chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</Birdleft>
+
+<Birdright>
+  <file>assets/birdright.png</file>
+  <startLoc x="4500" y="140"/>
+  <frames>4</frames>
+<imageWidth>64</imageWidth>
+  <imageHeight>64</imageHeight>
+  <speedX>199</speedX>
+  <speedY>199</speedY>
+  <frameInterval>50</frameInterval>
+  <safeDistance>70</safeDistance>
+  <transparency>false</transparency>
+<chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</Birdright>
+
+
+
+<Phoenixleft>
+  <file>assets/phoenix_left.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>4</frames>
+  <bullet>firebullets</bullet>
+  <imageWidth>140</imageWidth>
+  <imageHeight>140</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+<chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</Phoenixleft>
+
+<Phoenixright>
+  <file>assets/phoenix_right.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>4</frames>
+<bullet>firebullets</bullet>
+  <imageWidth>140</imageWidth>
+  <imageHeight>140</imageHeight>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>false</transparency>
+<chunk>
+    <size>9</size>
+    <distance>200</distance>
+  </chunk>
+</Phoenixright>
+
+<firebullets>
+  <file>assets/firebullet.png</file>
+  <interval>300</interval>
+  <distance>320</distance>
+  <startLoc x="100" y="100"/>
+  <speedX>400</speedX>
+  <speedY>0</speedY>
+  <strategy>rectangular</strategy>
+<transparency>true</transparency>
+</firebullets>
+
+<snowFlake>
+<file>assets/snowflake.png</file>
+  <startLoc x="10" y="10"/>
+  <frames>1</frames>
+ <frameInterval>150</frameInterval>
+  <speedX>100</speedX>
+  <speedY>10</speedY>
+  <transparency>true</transparency>
+</snowFlake>
+
+
+
+<fire1>
+  <file>assets/fireblast.png</file>
+  <startLoc x="500" y="30"/>
+  <frames>3</frames>
+  <imageWidth>85</imageWidth>
+  <imageHeight>60</imageHeight>
+  <frameInterval>150</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</fire1>
+
+<fire2>
+  <file>assets/fireblast.png</file>
+  <startLoc x="1000" y="70"/>
+  <frames>3</frames>
+  <imageWidth>85</imageWidth>
+  <imageHeight>60</imageHeight>
+  <frameInterval>150</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</fire2>
+
+<fire3>
+  <file>assets/fireblast.png</file>
+  <startLoc x="1500" y="50"/>
+  <frames>3</frames>
+  <imageWidth>85</imageWidth>
+  <imageHeight>60</imageHeight>
+  <frameInterval>150</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</fire3>
+
+<fire4>
+  <file>assets/fireblast.png</file>
+  <startLoc x="2000" y="150"/>
+  <frames>3</frames>
+  <imageWidth>85</imageWidth>
+  <imageHeight>60</imageHeight>
+  <frameInterval>150</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</fire4>
+
+<fire5>
+  <file>assets/fireblast.png</file>
+  <startLoc x="2500" y="110"/>
+  <frames>3</frames>
+  <imageWidth>85</imageWidth>
+  <imageHeight>60</imageHeight>
+  <frameInterval>150</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</fire5>
+
+<fire6>
+  <file>assets/fireblast.png</file>
+  <startLoc x="3000" y="230"/>
+  <frames>3</frames>
+  <imageWidth>85</imageWidth>
+  <imageHeight>60</imageHeight>
+  <frameInterval>150</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</fire6>
+
+<fire7>
+  <file>assets/fireblast.png</file>
+  <startLoc x="3500" y="190"/>
+  <frames>3</frames>
+  <imageWidth>85</imageWidth>
+  <imageHeight>60</imageHeight>
+  <frameInterval>150</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</fire7>
+
+<fire8>
+  <file>assets/fireblast.png</file>
+  <startLoc x="4000" y="80"/>
+  <frames>3</frames>
+  <imageWidth>85</imageWidth>
+  <imageHeight>60</imageHeight>
+  <frameInterval>150</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</fire8>
+
+<fire9>
+  <file>assets/fireblast.png</file>
+  <startLoc x="4500" y="60"/>
+  <frames>3</frames>
+  <imageWidth>85</imageWidth>
+  <imageHeight>60</imageHeight>
+  <frameInterval>150</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</fire9>
+
+<fire10>
+  <file>assets/fireblast.png</file>
+  <startLoc x="4500" y="40"/>
+  <frames>3</frames>
+  <imageWidth>85</imageWidth>
+  <imageHeight>60</imageHeight>
+  <frameInterval>150</frameInterval>
+  <speedX>0</speedX>
+  <speedY>0</speedY>
+  <transparency>false</transparency>
+</fire10>
+
+<fireball>
+  <file>assets/fireball.png</file>
+  <startLoc x="227" y="240"/>
+  <speedX>300</speedX>
+  <speedY>300</speedY>
+  <transparency>false</transparency>
+</fireball>
+
+<YellowStar>
+  <file>assets/yellowstar32.png</file>
+  <startLoc x="400" y="140"/>
+  <frames>1</frames>
+  <speedX>199</speedX>
+  <speedY>199</speedY>
+  <frameInterval>50</frameInterval>
+  <safeDistance>105</safeDistance>
+  <transparency>false</transparency>
+</YellowStar>
+
+
+</GameData>
